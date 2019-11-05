@@ -156,88 +156,97 @@
     }
 
 body {
-    width 800px;
-    margin: 30px 100px 10px 100px;
+    width: 90%;
+    margin: 1% 5% 3% 5%
 }
-
 
 .logo {
     vertical-align: middle;
-    position: relative;
-    left: 24%; /*left off here.
-    this is not the answer for getting 
-    the positioning correct*/
+    margin-left: 2%;
 }
 
-.intro-content{
-    width: 49%;
-}
 
 .snippets-2x1 {
     display: inline-block;
-    width: 49%;
+    width: 47%;
+    margin: 0 2% 0 0;
+}
+
+.snippets-2x1-img {
+    display: inline-block; 
+    margin: 0 0 0 10%;
+    width: 25%;
+    min-width: 100px;
+    vertical-align: top;
+    text-align: center;
+}
+
+#intro .snippets-2x1 h2 {
+    text-align: center;
+    margin: 4% 0% 0% 15%;
+    font-size: 450%;
+}
+
+#intro .snippets-2x1 button {
+    display: block;
+    margin: 6% 0 0% 43%;
+    background-color: white;
+    border: solid 1px black;
+    color: black;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
 }
 
 .snippets-3x1 {
     display: inline-block;
-    width: 33.1%;
+    margin: 0 2% 0 0;
+    width: 31%;
 }
 
 .line {
-    width: 100%;
     height: 2px;
     background: black;
     margin: 20px 0px 20px 0px;
 }
 
-.middle-img {
-    width: 100%;
-}
-
-#pageheader {
-    width: 100%;
-    border: 1px solid red;
-}
-
 #top-nav{
-    display: inline-block;
-    margin-bottom: 30px;
-}
-
-#top-nav ul {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    vertical-align: middle;
-}
-
-#top-nav li {
-    display: inline-block;
-    margin-right: 70px;
+    margin: 1%;
+    padding: 1%;
+    width: auto;
 }
 
 #top-nav a {
+    display: inline-block;
     text-decoration: none;
+    margin: 2%;
+    width: 10%;
+    vertical-align: middle;
+
 }
 
 #intro {
-    display: inline-block;
-    background-color: blue;
     width: 100%;
+    margin: 3% 0% 3% 0%;
 }
 
 #double-snippets {
-    margin: 0px 0px 30px 0px;
-    width: 100%;
+    margin: 0% 0% 1% 0%;
 }
 
+
+.middle-img {
+    width: 100%
+}
+
+
 #triple-snippets {
-    width: 100%;
-    margin: 20px 0px 20px 0px;
+    margin: 1% 0% 2% 0%;
 }
 
 #cr {
-    margin: 20px 0px 0px 0px;
+    margin: 2% 0% 0% 0%;
     text-align: center;
-    font-size: 11px;
+    font-size: 75%;
 }
