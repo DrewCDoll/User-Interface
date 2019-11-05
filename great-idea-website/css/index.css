@@ -265,6 +265,10 @@ body {
     border: groove 2px darkblue;
 }
 
+/* .middle-img-as-background {
+    background-image: url('img/mid-page-accent.jpg');
+} */
+
 
 #triple-snippets {
     margin: 1% 0% 2% 0%;
@@ -275,3 +279,5 @@ body {
     text-align: center;
     font-size: 75%;
 }
+
+
