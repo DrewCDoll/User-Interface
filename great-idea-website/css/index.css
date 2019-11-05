@@ -172,6 +172,14 @@ body {
     margin: 0 2% 0 0;
 }
 
+.snippets-2x1-header {
+    display: inline-block;
+    width: 47%;
+    margin: 0 2% 0 0;
+}
+
+
+
 .snippets-2x1-img {
     display: inline-block; 
     margin: 0 0 0 10%;
@@ -183,13 +191,13 @@ body {
 
 #intro .snippets-2x1 h2 {
     text-align: center;
-    margin: 4% 0% 0% 15%;
+    margin: auto;
     font-size: 450%;
 }
 
 #intro .snippets-2x1 button {
     display: block;
-    margin: 6% 0 0% 43%;
+    margin: auto;
     background-color: white;
     border: solid 1px black;
     color: black;
