@@ -142,7 +142,8 @@
     html,
     body {
         height: 100%;
-        font-family: 'Titillium Web', sans-serif;
+        /* font-family: 'Titillium Web', sans-serif; */
+        font-family: 'Oswald', sans-serif; /* Add a new font family from Google*/
     }
     
     h1,
@@ -176,6 +177,8 @@ body {
     display: inline-block;
     width: 47%;
     margin: 0 2% 0 0;
+    padding-left: 15%;
+    padding-top: 2%;
 }
 
 
@@ -220,23 +223,36 @@ body {
 }
 
 #top-nav{
-    margin: 1%;
+    margin: 0 0 0 5%;
     padding: 1%;
-    width: auto;
+    width: 90%;
+    border: groove 2px darkblue;
+    background-color: cadetblue; /*Add a background color to the top navigation -Stretch Goal*/
+    background-image: radial-gradient(lightblue, blue);
+    position: fixed; /*Set the nav bar to be fixed at the top of the page, and allow other elements to scroll under the nav bar. Stretch Goal*/
+    top: 0;
+    left: 0;
+    z-index: 9999;
 }
 
 #top-nav a {
     display: inline-block;
     text-decoration: none;
+    color: black;
     margin: 2%;
     width: 10%;
     vertical-align: middle;
 
 }
 
+#top-nav a:hover { /*add some automation when hovering over a navigation selection Stretch Goal*/
+    cursor: pointer;
+    text-decoration-line: overline;    
+}
+
 #intro {
     width: 100%;
-    margin: 3% 0% 3% 0%;
+    margin: 10% 0% 3% 0%;
 }
 
 #double-snippets {
@@ -245,7 +261,8 @@ body {
 
 
 .middle-img {
-    width: 100%
+    width: 100%;
+    border: groove 2px darkblue;
 }
 
 
