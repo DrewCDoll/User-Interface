@@ -216,6 +216,13 @@ body {
     width: 31%;
 }
 
+.snippets-3x1-contacts {
+    display: inline-block;
+    text-align: right;
+    margin: 0 2% 0 5%;
+    width: 25%;
+}
+
 .line {
     height: 2px;
     background: black;
@@ -260,19 +267,28 @@ body {
 }
 
 
-.middle-img {
+/* .middle-img {
     width: 100%;
     border: groove 2px darkblue;
-}
-
-/* .middle-img-as-background {
-    background-image: url('img/mid-page-accent.jpg');
 } */
+
+.middle-img-as-background {
+    background-image: url('https://i.imgur.com/WpQtqnR.jpg');
+    border: solid 2px black;
+    background-attachment: fixed;  
+    background-size: cover;
+}
 
 
 #triple-snippets {
     margin: 1% 0% 2% 0%;
 }
+
+#triple-snippets-contacts {
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
 
 #cr {
     margin: 2% 0% 0% 0%;
